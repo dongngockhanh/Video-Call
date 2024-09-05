@@ -1,0 +1,11 @@
+<h1>Xin chào các bạn đây là app video của tôi 📸</h1>
+<!-- <input type="file" accept="image/*" capture="environment"> -->
+ <div class="button-header">
+    <button (click)="startVideo()">
+        <i>Bắt đầu video</i>
+    </button>
+    <button  (click)="stopVideo()">Dừng</button>
+ </div>
+ <div class="video-container">
+    <video #videoElement autoplay></video>
+  </div>
